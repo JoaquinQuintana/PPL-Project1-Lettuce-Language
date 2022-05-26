@@ -1,0 +1,80 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.8 (Oracle Corporation Java 11.0.13)
+[debug]       Load.loadUnit: plugins took 342.711786ms
+[debug]       Load.loadUnit: defsScala took 0.623978ms
+[debug] [Loading] Scanning directory /home/hesisenberg/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/hesisenberg/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 56.678413 ms
+[debug]           Load.resolveProject(global-plugins) took 128.047044ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/hesisenberg/.sbt/1.0/plugins, plugins: List(<none>))) took 259.028351ms
+[debug] [Loading] Done in /home/hesisenberg/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 308.779981ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.540284ms
+[debug]     Load.loadUnit(file:/home/hesisenberg/.sbt/1.0/plugins/, ...) took 671.302517ms
+[debug]   Load.apply: load took 1138.931416ms
+[debug]   Load.apply: resolveProjects took 13.783685ms
+[debug]   Load.apply: finalTransforms took 226.802063ms
+[debug]   Load.apply: config.delegates took 22.649674ms
+[debug]   Load.apply: Def.make(settings)... took 876.911095ms
+[debug]   Load.apply: structureIndex took 210.804077ms
+[debug]   Load.apply: mkStreams took 2.934065ms
+[info] loading global plugins from /home/hesisenberg/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4965.931995ms
+[debug]           Load.loadUnit: plugins took 33.590139ms
+[debug]           Load.loadUnit: defsScala took 0.008783ms
+[debug] [Loading] Scanning directory /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.341028 ms
+[debug]               Load.resolveProject(csci3155_s20_project1-build) took 1.907846ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id csci3155_s20_project1-build, base: /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/project, plugins: List(<none>))) took 7.201396ms
+[debug] [Loading] Done in /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/project, returning: (csci3155_s20_project1-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 10.671458ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.027833ms
+[debug]         Load.loadUnit(file:/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/project/, ...) took 45.535928ms
+[debug]       Load.apply: load took 48.459444ms
+[debug]       Load.apply: resolveProjects took 0.233642ms
+[debug]       Load.apply: finalTransforms took 23.398067ms
+[debug]       Load.apply: config.delegates took 1.035759ms
+[debug]       Load.apply: Def.make(settings)... took 185.889783ms
+[debug]       Load.apply: structureIndex took 53.867025ms
+[debug]       Load.apply: mkStreams took 0.004276ms
+[info] loading project definition from /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

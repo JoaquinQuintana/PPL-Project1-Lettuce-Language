@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/target/scala-2.12/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/src/main/scala/edu/colorado/csci3155/project1/StackMachineCompiler.scala:11:9: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Cosine(_), Div(_, _), Sine(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        e match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStackMachineTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stack machine test 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompilerTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- LetBinding + Ident Test 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- LetBinding + Ident Test 4 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  1.0 was not less than or equal to 1.0E-5 (CompilerTest.scala:84)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 207 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 13[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 12, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.colorado.csci3155.project1.CompilerTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 31 s, completed Feb 18, 2022, 5:46:07 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

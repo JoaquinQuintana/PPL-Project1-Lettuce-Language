@@ -1,0 +1,59 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DivI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DivI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LogI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Const$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StoreI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SinI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StackMachineCompiler$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Div$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Log$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoadI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PopI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Div.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Minus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Cosine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mult$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StackMachineEmulator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LoadI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Let$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Expr.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Minus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StackMachineEmulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mult.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Plus.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Sine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SinI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MultI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Plus$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ident$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Const.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MultI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExpI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PushI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Cosine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LogI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Log.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PushI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exp$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SubI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SubI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CosI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StackMachineInstruction.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StoreI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Let.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StackMachineCompiler.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExpI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Ident.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CosI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PopI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/target/scala-2.12/classes.bak[0m

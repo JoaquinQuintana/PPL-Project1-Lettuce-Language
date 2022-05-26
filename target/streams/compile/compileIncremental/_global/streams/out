@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/Expr.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/Main.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineCompiler.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineCompiler.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/StackMachineEmulator.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/Expr.scala, ${BASE}/src/main/scala/edu/colorado/csci3155/project1/Main.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 4 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.5.7:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7c3c78f2 for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/hesisenberg/.jdks/corretto-1.8.0_322/jre/lib/resources.jar:/home/hesisenberg/.jdks/corretto-1.8.0_322/jre/lib/rt.jar:/home/hesisenberg/.jdks/corretto-1.8.0_322/jre/lib/sunrsasign.jar:/home/hesisenberg/.jdks/corretto-1.8.0_322/jre/lib/jsse.jar:/home/hesisenberg/.jdks/corretto-1.8.0_322/jre/lib/jce.jar:/home/hesisenberg/.jdks/corretto-1.8.0_322/jre/lib/charsets.jar:/home/hesisenberg/.jdks/corretto-1.8.0_322/jre/lib/jfr.jar:/home/hesisenberg/.jdks/corretto-1.8.0_322/jre/classes:/home/hesisenberg/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/hesisenberg/Documents/PrinciplesOfProgrammingLanguages/week5/project1/csci3155_s20_project1/target/scala-2.12/classes:/home/hesisenberg/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar:/home/hesisenberg/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 9.768590216 s[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
